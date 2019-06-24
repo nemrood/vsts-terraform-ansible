@@ -1,5 +1,5 @@
-storage_account_name = "vstsbuildterraform"
+storage_account_name = "devopsdiag142"
 
 container_name = "terraform-state"
 
-key = "demo-java.terraform.tfstate"
+key = "nimrod"
