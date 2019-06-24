@@ -7,4 +7,4 @@ export ARM_SUBSCRIPTION_ID=$3
 export ARM_TENANT_ID=$4
 export ARM_ACCESS_KEY=$5
 echo "Run"
-terraform init -backend-config="$(System.DefaultWorkingDirectory)/_HomeLab-Gradle-CI/drop/iac/terraform/azure/backend.tfvars"
+terraform init -backend=true -backend-config="$(System.DefaultWorkingDirectory)/_HomeLab-Gradle-CI/drop/iac/terraform/azure/backend.tfvars"
