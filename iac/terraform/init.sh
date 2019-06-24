@@ -8,4 +8,4 @@ export ARM_TENANT_ID=$4
 export ARM_ACCESS_KEY=$5
 echo "Run"
 cd $(System.DefaultWorkingDirectory)/_HomeLab-Gradle-CI/drop/iac/terraform/
-terraform init
+terraform init -backend-config=backend.tfvars
